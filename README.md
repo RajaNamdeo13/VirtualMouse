@@ -1,44 +1,41 @@
 
-🖱️ Virtual Mouse using OpenCV, MediaPipe & PyAutoGUI
+# 🖱️ Virtual Mouse using OpenCV, MediaPipe & PyAutoGUI
+
 A hand gesture-based virtual mouse that uses your webcam to control the cursor and perform click actions. Built with OpenCV for video input, MediaPipe for hand tracking, and PyAutoGUI for GUI control.
 
-📜 Project Description
+---
+
+## 📜 Project Description
+
 This project allows you to control the mouse pointer using hand gestures captured by a webcam. The system utilizes:
+- **OpenCV** for video capture,
+- **MediaPipe** for real-time hand tracking, and
+- **PyAutoGUI** to simulate mouse movements and clicks on the screen.
 
-OpenCV for video capture,
+The goal is to provide a hands-free way of interacting with a computer, making it especially useful for **accessibility purposes** or **touchless interfaces**.
 
-MediaPipe for real-time hand tracking, and
+---
 
-PyAutoGUI to simulate mouse movements and clicks on the screen.
+## ⚙️ Features
 
-The goal is to provide a hands-free way of interacting with a computer, making it especially useful for accessibility purposes or touchless interfaces.
+- ✋ **Hand Gesture Control**: Move the cursor by moving your hand.
+- 🖱️ **Click Simulation**: Perform mouse clicks with specific gestures (e.g., thumb + index finger or fist).
+- 🎯 **Real-time Tracking**: Efficient and fast hand tracking using MediaPipe.
+- 💻 **No Extra Hardware**: Just a webcam and your hand!
 
- VirtualMouse
-A hand gesture-based virtual mouse that uses your webcam to control the cursor and perform click actions. Built with OpenCV for video input, MediaPipe for hand tracking, and PyAutoGUI for GUI control. 
+---
 
-⚙️ Features
-✋ Hand Gesture Control: Move the cursor by moving your hand.
+## 🔧 Installation
 
-🖱️ Click Simulation: Perform mouse clicks with specific gestures (e.g., thumb + index finger or fist).
+### ✅ Prerequisites:
+- Python 3.x installed
+- `pip` (Python package installer)
 
-🎯 Real-time Tracking: Efficient and fast hand tracking using MediaPipe.
-
-💻 No Extra Hardware: Just a webcam and your hand!
-
-🔧 Installation
-✅ Prerequisites:
-Python 3.x installed
-
-pip (Python package installer)
-
-📥 Steps:
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/RajaNamdeo13/VirtualMouse.git
-cd VirtualMouse
+### 📥 Steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RajaNamdeo13/VirtualMouse.git
+   cd VirtualMouse
 Install the required dependencies:
 
 bash
